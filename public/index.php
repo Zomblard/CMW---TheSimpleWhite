@@ -11,21 +11,12 @@
     <script src="https://kit.fontawesome.com/eced519d56.js" crossorigin="anonymous"></script>
     <script src="assets/flowbite.js"></script>
 </head>
-<script
-        src="https://code.jquery.com/jquery-3.3.1.js"
-        integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
-        crossorigin="anonymous">
-</script>
-<script>
-	$(function(){
-		$("#header").load("header.html");
-		$("#content").load("wiki.html");
-		$("#footer").load("footer.html");
-	});
-</script>
 <body>
-<div id="header"></div>
-<div id="content"></div>
-<div id="footer"></div>
+<?php
+// Importations avec require()
+require 'header.php';
+require 'accueil.php';
+require 'footer.php';
+?>
 </body>
 </html>
