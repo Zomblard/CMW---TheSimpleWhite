@@ -48,7 +48,7 @@ src => tailwind.css
 ```
 module.exports = {
   content: [
-    './public/*.{html,js}',
+    './public/*.{php,html,js}',
   ],
 ```
 
